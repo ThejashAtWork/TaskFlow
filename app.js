@@ -5,7 +5,7 @@ const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use("/tasks", require("./routes/taskFlowRouts"));
